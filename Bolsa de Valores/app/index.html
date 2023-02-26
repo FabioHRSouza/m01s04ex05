@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 04</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="principal">
+            <div class="container">
+                <h1 class="text-center" id="titulo-principal">Negociações</h1><br>
+            <div>
+            <form class="form">
+                <div class="form-Negoc">
+                    <label for="dataNegoc">Data da Negociação: </label>
+                    <input type="date" class="form-control" id="data" >
+                </div><br>
+                <div class="form-Negoc">
+                    <label for="acoesVendidas">Ações Vendidas: </label>
+                    <input type="number" minlength="1" maxlength="100" class="form-control" id="quantidade" >
+                </div><br>
+                <div class="form-Negoc">
+                    <label for="valor">Valor da Negociação</label>
+                    <input type="number" minlength="0.0" maxlength="1000000.0" class="form-control" id="valor">
+                </div><br>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>    
+                
+        </section>
+    </main>
+    <script type="module" src="programa.js"></script>
+</body>
+</html>

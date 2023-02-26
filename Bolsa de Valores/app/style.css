@@ -1,0 +1,14 @@
+.principal{
+    background-color: antiquewhite;
+    width: 600px;
+    margin: 100px auto;
+    border: 5px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+label{
+    font-size: 25px;
+}
